@@ -2,13 +2,6 @@
 @import "fonts"
 @import "libs"
 
-::placeholder
-	color: #666
-
-::selection
-	background-color: $accent
-	color: #fff
-
 html, body
 	height: 100%
 
@@ -19,10 +12,68 @@ body
 	line-height: 1.65
 	font-family: $default-font
 	overflow-x: hidden
+	background-color: #f2f2f2
 
+h1
+	font-size: 40px
+h3
+	font-size: 24px
 
 .text-center
-	text-align: center
+	text-align: center !important
+
+.nav
+	height: 57px
+	background-color: #1b5f75
+	z-index: 5
+
+.background
+	background: url("../img/background.png") no-repeat center
+	background-position: top center
+	background-size: 100% auto
+	position: relative
+	z-index: -2
+
+
+.content
+	&_head
+		padding-top: 277px
+	&_main
+		margin-bottom: 20px
+		p
+			padding-bottom: 90px
+		h3
+			padding-top: 70px
+			margin-bottom: 35px
+		.fa-graduation-cap, .fa-angle-down, .fa-angle-up
+			margin-top: 80px
+		.fa-angle-up
+			opacity: 0
+
+	&_logo
+		background-color: #ffffff
+		border: 1px solid grey
+		border-radius: 2px
+		box-shadow: 0px 0px 10px 0px #000000
+		position: absolute
+		padding: 10px
+		top: -5%
+		left: 5%
+
+.courses
+	position: relative
+	&-star
+		margin-top: 13px
+		margin-right: 10px
+		margin-bottom: 16px
+		text-align: right
+
+
+
+
+
+
+
 
 
 @import "media" // Always at the end
