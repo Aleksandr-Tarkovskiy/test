@@ -20,133 +20,350 @@
 </head>
 
 <body>
-
+	<!-- nav -->
+	<div class="container-fluid">
 	<div class="nav row align-items-center">
-		<div class="col-md-2 offset-md-1">
-		<a href="#">Site Logo</a>
+		<div class="col-auto offset-md-1">
+			<a class="logo" href="#">Site Logo</a>
+			<a class="logo-mobile" href="#">Sl</a>
 		</div>
-		<div class="col-md-6">
-			<form class="" action="index.html" method="post">
-				<i class="fas fa-map-marker-alt fa-lg" style="color:red"></i>
-				<input type="search" name="search" value="">
-				<button type="button" name="button"><i class="fas fa-search"></i></button>
+		<div class="col col-md-6">
+			<form class="nav_search" method="post">
+				<span><i class="fas fa-map-marker-alt fa-lg" style="color:red"></i></span>
+				<input class="nav_search-input" type="search" name="search" value="">
+				<button class="nav_button" type="button" name="button"><i class="fas fa-search"></i></button>
 			</form>
-
 		</div>
-		<div class="col-md-2 offset-md-1">
+		<div class="col-auto col-md-2 offset-md-1">
 			<div class="row align-items-center justify-content-end">
-				<div class="col">
+				<div class="col col-xs-1 text-center">
 					<div class="fa-lg">
 						<span class="fa-layers">
-							<i class="fas fa-bell"></i>
-							<span class="fa-layers-counter fa-lg" style="background:red">4</span>
+							<i class="white fas fa-bell"></i>
+							<span class="mobile-none fa-layers-counter fa-lg" style="background:red">4</span>
 						</span>
 					</div>
 				</div>
-				<div class="col">
+				<div class="col col-xs-1">
 					<div class="">
 						<a href="#"><img src="img/ava.png" alt=""></a>
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</div>
+	</div>
+	<!-- nav -->
 
+	<!-- content -->
 	<div class="background">
-			<div class="container">
-				<div class="content">
-					<div class="content_head row">
-						<div class="col-md-8">
-							<div class="row">
-								<div class="col-md-1 offset-md-2">
-									<i class="fab fa-envira fa-2x"></i>
-								</div>
-								<div class="col-md-8">
-									<h1>Английский для детей</h1>
-									<p>Лучше раньше, чем никогда</p>
-								</div>
-								<div class="content_main row">
-									<div class="col-md-1 offset-md-2 text-center" style="background-color: #ffffff">
-										<i class="fas fa-graduation-cap fa-lg"></i>
-									</div>
-									<div class="col-md-7" style="background-color: #ffffff">
-										<h3>В каком возрасте начать обучение?</h3>
-										<p>До пяти лет дети обладают лингвистической гениальностью. Они способны запоминать 20-30 новых слов в день. Простая арифметика дает впечатляющий результат – 7-10 тысяч слов в год. Да мы и в родном русском столько не используем, а что говорить об иностранном. Способности к языкам, безусловно, либо есть, либо нет. </p>
-									</div>
-									<div class="col-md-1" style="background-color: #ffffff">
-										<i class="fas fa-angle-down fa-lg"></i>
-										<i class="fas fa-angle-up fa-lg"></i>
-									</div>
+		<div class="container">
+			<div class="content">
+				<div class="content_head row">
+					<div class="col-md-8 offset-md-1 col-xl-3 content-left">
+						<h1 class="white-text mobile-none">Курсы</h1>
+						<p class="white-text mobile-none margin-p">Английский язык</p>
+						<div class="courses shadow col-md-auto" style="background-color: #ffffff">
+							<div class="row justify-content-end	no-gutters">
+								<img class="content-logo shadow" src="../img/content-logo.png" alt="">
+								<i class="courses-star far fa-star fa-lg" style="color:#005298"></i>
+							</div>
+							<div class="w-100"></div>
+							<div class="row justify-content-center	no-gutters">
+								<div class="col text-center">
+									<img class="content-img"src="../img/content-img.png" alt="">
 								</div>
 							</div>
-							<div class="content_main row">
-								<div class="col-md-1 offset-md-2 text-center" style="background-color: #ffffff">
-									<i class="fas fa-graduation-cap fa-lg"></i>
+							<div class="row	no-gutters">
+								<div class="courses-p col-auto offset-md-1 col-md-2 text-center">
+									<i class="fas fa-check-square fa-lg" style="color: #005298"></i>
 								</div>
-								<div class="col-md-7" style="background-color: #ffffff">
-									<h3>В каком возрасте начать обучение?</h3>
-									<p>До пяти лет дети обладают лингвистической гениальностью. Они способны запоминать 20-30 новых слов в день. Простая арифметика дает впечатляющий результат – 7-10 тысяч слов в год. Да мы и в родном русском столько не используем, а что говорить об иностранном. Способности к языкам, безусловно, либо есть, либо нет. </p>
-								</div>
-								<div class="col-md-1" style="background-color: #ffffff">
-									<i class="fas fa-angle-down fa-lg"></i>
-									<i class="fas fa-angle-up fa-lg"></i>
+								<div class="courses-p col-auto col-md-6">
+									<p>Школа «Let's Speak»</p>
 								</div>
 							</div>
-						</div>
-						<div class="col-md-3 offset-xs-1">
-							<h1>Курсы</h1>
-							<p>Английский язык</p>
-							<div class="courses col" style="background-color: #ffffff">
-								<div class="row justify-content-end  no-gutters">
-									<img class="content_logo" src="../img/content-logo.png" alt="">
-									<i class="courses-star far fa-star fa-lg" style="color:blue"></i>
+							<div class="offset-md-1">
+								<p class="grey-text">Репетиторы носители языка главное наше преимущес...</p>
+							</div>
+							<hr>
+							<div class="row no-gutters">
+								<div class="grey-text col-auto col-md-2 offset-md-1 text-center">
+									<i class="fas fa-map-marker-alt fa-lg" style="color:rgba(0, 0, 0, 0.5)"></i>
 								</div>
-								<div class="w-100"></div>
-								<div class="row justify-content-center  no-gutters">
-									<img src="../img/content-img.png" alt="">
-								</div>
-
-								<div class="row  no-gutters">
-									<div class="offset-md-1 col-md-2">
-										<i class="fas fa-check-square"></i>
-									</div>
-									<div class="col-md-6">
-										<p>Школа «Let's Speak»</p>
-									</div>
-								</div>
-								<p>Репетиторы носители языка главное наше преимущес...</p>
-								<hr>
-								<div class="row">
-									<div class="col">
-										<i class="fas fa-check-square"></i>
-									</div>
-									<div class="col">
-										<p>Украина</p>
-										<p>Киев</p>
-									</div>
+								<div class="grey-text col">
+									<p>Украина</p>
+									<p style="margin-bottom:20px">Киев</p>
 								</div>
 							</div>
 						</div>
-
-
-
 					</div>
-
-
+					<div class="pading col-md-8 content-right">
+						<div class="white-text row">
+							<div class="col-md-1 offset-md-1 mobile-center">
+								<i class="fab fa-envira fa-2x pading"></i>
+							</div>
+							<div class="col-auto align-self-center mobile-center">
+								<h1>Английский для детей</h1>
+								<p class="margin-p mobile-none">Лучше раньше, чем никогда</p>
+							</div>
+						</div>
+						<div class="content_main content_show">
+							<label class="i-click-1 col-auto shadow gutter text-center">
+									<i class="fas fa-graduation-cap fa-lg text-center"></i>
+									<h3 class="text-center">В каком возрасте начать обучение?</h3>
+									<span class="up-1 mobile-none"><i class="fas fa-angle-down fa-lg"></i></span>
+									<span class="up-1 mobile-none" style="display:none"><i class="fas fa-angle-up fa-lg"></i></span>
+									<p class="slide-1 col-md-8 offset-md-1" style="display:none; text-align:left">До пяти лет дети обладают лингвистической гениальностью. Они способны запоминать 20-30 новых слов в день. Простая арифметика дает впечатляющий результат – 7-10 тысяч слов в год. Да мы и в родном русском столько не используем, а что говорить об иностранном. Способности к языкам, безусловно, либо есть, либо нет.</p>
+							</label>
+							<label class="i-click-2 col-auto shadow gutter text-center">
+									<i class="fas fa-graduation-cap fa-lg text-center"></i>
+									<h3 class="text-center">В каком возрасте начать обучение?</h3>
+									<span class="up-2 mobile-none"><i class="fas fa-angle-down fa-lg"></i></span>
+									<span class="up-2 mobile-none" style="display:none"><i class="fas fa-angle-up fa-lg"></i></span>
+									<p class="slide-2 col-md-8 offset-md-1" style="display:none; text-align:left">До пяти лет дети обладают лингвистической гениальностью. Они способны запоминать 20-30 новых слов в день. Простая арифметика дает впечатляющий результат – 7-10 тысяч слов в год. Да мы и в родном русском столько не используем, а что говорить об иностранном. Способности к языкам, безусловно, либо есть, либо нет.</p>
+							</label>
+						</div>
+					</div>
 				</div>
-
 			</div>
 		</div>
 	</div>
 
 
+<!-- content -->
+<!-- slider -->
+	<div class="container">
+		<div class="offset-md-2"><p class="slider-p">Курсы английского в Киеве</p></div>
+		<div class="row justify-content-center">
+			<div class="col-md-10">
+				<div class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="courses shadow col" style="background-color: #ffffff">
+							<div class="row justify-content-end	no-gutters">
+								<img class="content-logo-slider shadow" src="../img/content-logo.png" alt="">
+								<i class="mobile-none courses-star far fa-star fa-lg" style="color:#005298"></i>
+							</div>
+							<div class="w-100 mobile-none"></div>
+							<div class="row justify-content-center	no-gutters">
+								<div class="col">
+									<img class="mobile-none content-img"src="../img/content-img.png" alt="">
+									<img class="content-img-mobile"src="../img/content-img-mobile.png" alt="">
+									<span class="price">от 55 грн</span>
+								</div>
+							</div>
+							<div class="row	no-gutters mobile-none">
+								<div class="courses-p offset-md-1 col-md-2 text-center">
+									<i class="fas fa-check-square fa-lg" style="color: #005298"></i>
+								</div>
+								<div class="courses-p col-md-8">
+									<p>Школа «Let's Speak»</p>
+								</div>
+							</div>
+							<div class="offset-md-1 mobile-none">
+								<p class="grey-text">Репетиторы носители языка главное наше преимущес...</p>
+							</div>
+							<hr class="mobile-none">
+							<p class="mobile-p">Курсы английского в Киеве</p>
+							<div class="row no-gutters">
+								<div class="slider-i col-auto col-md-2 offset-md-1 text-center">
+									<i class="fas fa-map-marker-alt fa-lg" style="color:rgba(0, 0, 0, 0.5)"></i>
+								</div>
+								<div class="col-auto grey-text col">
+									<div class="slider-location-desktop">
+										<p>Украина</p>
+										<p style="margin-bottom:20px">Киев</p>
+									</div>
+									<div class="slider-location-mobile">
+										<p>Украина, Киев</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="courses shadow col" style="background-color: #ffffff">
+							<div class="row justify-content-end	no-gutters">
+								<img class="content-logo-slider shadow" src="../img/content-logo.png" alt="">
+								<i class="mobile-none courses-star far fa-star fa-lg" style="color:#005298"></i>
+							</div>
+							<div class="w-100 mobile-none"></div>
+							<div class="row justify-content-center	no-gutters">
+								<div class="col">
+									<img class="mobile-none content-img"src="../img/content-img.png" alt="">
+									<img class="content-img-mobile"src="../img/content-img-mobile.png" alt="">
+									<span class="price">от 55 грн</span>
+								</div>
+							</div>
+							<div class="row	no-gutters mobile-none">
+								<div class="courses-p offset-md-1 col-md-2 text-center">
+									<i class="fas fa-check-square fa-lg" style="color: #005298"></i>
+								</div>
+								<div class="courses-p col-md-8">
+									<p>Школа «Let's Speak»</p>
+								</div>
+							</div>
+							<div class="offset-md-1 mobile-none">
+								<p class="grey-text">Репетиторы носители языка главное наше преимущес...</p>
+							</div>
+							<hr class="mobile-none">
+							<p class="mobile-p">Курсы английского в Киеве</p>
+							<div class="row no-gutters">
+								<div class="slider-i col-auto col-md-2 offset-md-1 text-center">
+									<i class="fas fa-map-marker-alt fa-lg" style="color:rgba(0, 0, 0, 0.5)"></i>
+								</div>
+								<div class="col-auto grey-text col">
+									<div class="slider-location-desktop">
+										<p>Украина</p>
+										<p style="margin-bottom:20px">Киев</p>
+									</div>
+									<div class="slider-location-mobile">
+										<p>Украина, Киев</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="courses shadow col" style="background-color: #ffffff">
+							<div class="row justify-content-end	no-gutters">
+								<img class="content-logo-slider shadow" src="../img/content-logo.png" alt="">
+								<i class="mobile-none courses-star far fa-star fa-lg" style="color:#005298"></i>
+							</div>
+							<div class="w-100 mobile-none"></div>
+							<div class="row justify-content-center	no-gutters">
+								<div class="col">
+									<img class="mobile-none content-img"src="../img/content-img.png" alt="">
+									<img class="content-img-mobile"src="../img/content-img-mobile.png" alt="">
+									<span class="price">от 55 грн</span>
+								</div>
+							</div>
+							<div class="row	no-gutters mobile-none">
+								<div class="courses-p offset-md-1 col-md-2 text-center">
+									<i class="fas fa-check-square fa-lg" style="color: #005298"></i>
+								</div>
+								<div class="courses-p col-md-8">
+									<p>Школа «Let's Speak»</p>
+								</div>
+							</div>
+							<div class="offset-md-1 mobile-none">
+								<p class="grey-text">Репетиторы носители языка главное наше преимущес...</p>
+							</div>
+							<hr class="mobile-none">
+							<p class="mobile-p">Курсы английского в Киеве</p>
+							<div class="row no-gutters">
+								<div class="slider-i col-auto col-md-2 offset-md-1 text-center">
+									<i class="fas fa-map-marker-alt fa-lg" style="color:rgba(0, 0, 0, 0.5)"></i>
+								</div>
+								<div class="col-auto grey-text col">
+									<div class="slider-location-desktop">
+										<p>Украина</p>
+										<p style="margin-bottom:20px">Киев</p>
+									</div>
+									<div class="slider-location-mobile">
+										<p>Украина, Киев</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="courses shadow col" style="background-color: #ffffff">
+							<div class="row justify-content-end	no-gutters">
+								<img class="content-logo-slider shadow" src="../img/content-logo.png" alt="">
+								<i class="mobile-none courses-star far fa-star fa-lg" style="color:#005298"></i>
+							</div>
+							<div class="w-100 mobile-none"></div>
+							<div class="row justify-content-center	no-gutters">
+								<div class="col">
+									<img class="mobile-none content-img"src="../img/content-img.png" alt="">
+									<img class="content-img-mobile"src="../img/content-img-mobile.png" alt="">
+									<span class="price">от 55 грн</span>
+								</div>
+							</div>
+							<div class="row	no-gutters mobile-none">
+								<div class="courses-p offset-md-1 col-md-2 text-center">
+									<i class="fas fa-check-square fa-lg" style="color: #005298"></i>
+								</div>
+								<div class="courses-p col-md-8">
+									<p>Школа «Let's Speak»</p>
+								</div>
+							</div>
+							<div class="offset-md-1 mobile-none">
+								<p class="grey-text">Репетиторы носители языка главное наше преимущес...</p>
+							</div>
+							<hr class="mobile-none">
+							<p class="mobile-p">Курсы английского в Киеве</p>
+							<div class="row no-gutters">
+								<div class="slider-i col-auto col-md-2 offset-md-1 text-center">
+									<i class="fas fa-map-marker-alt fa-lg" style="color:rgba(0, 0, 0, 0.5)"></i>
+								</div>
+								<div class="col-auto grey-text col">
+									<div class="slider-location-desktop">
+										<p>Украина</p>
+										<p style="margin-bottom:20px">Киев</p>
+									</div>
+									<div class="slider-location-mobile">
+										<p>Украина, Киев</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<div class="courses shadow col" style="background-color: #ffffff">
+							<div class="row justify-content-end	no-gutters">
+								<img class="content-logo-slider shadow" src="../img/content-logo.png" alt="">
+								<i class="mobile-none courses-star far fa-star fa-lg" style="color:#005298"></i>
+							</div>
+							<div class="w-100 mobile-none"></div>
+							<div class="row justify-content-center	no-gutters">
+								<div class="col">
+									<img class="mobile-none content-img"src="../img/content-img.png" alt="">
+									<img class="content-img-mobile"src="../img/content-img-mobile.png" alt="">
+									<span class="price">от 55 грн</span>
+								</div>
+							</div>
+							<div class="row	no-gutters mobile-none">
+								<div class="courses-p offset-md-1 col-md-2 text-center">
+									<i class="fas fa-check-square fa-lg" style="color: #005298"></i>
+								</div>
+								<div class="courses-p col-md-8">
+									<p>Школа «Let's Speak»</p>
+								</div>
+							</div>
+							<div class="offset-md-1 mobile-none">
+								<p class="grey-text">Репетиторы носители языка главное наше преимущес...</p>
+							</div>
+							<hr class="mobile-none">
+							<p class="mobile-p">Курсы английского в Киеве</p>
+							<div class="row no-gutters">
+								<div class="slider-i col-auto col-md-2 offset-md-1 text-center">
+									<i class="fas fa-map-marker-alt fa-lg" style="color:rgba(0, 0, 0, 0.5)"></i>
+								</div>
+								<div class="col-auto grey-text col">
+									<div class="slider-location-desktop">
+										<p>Украина</p>
+										<p style="margin-bottom:20px">Киев</p>
+									</div>
+									<div class="slider-location-mobile">
+										<p>Украина, Киев</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- slider -->
 
 
 
 	<script src="js/scripts.min.js"></script>
 	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 	<script src="libs/OwlCarousel/owl.carousel.min.js"></script>
+
 
 </body>
 </html>

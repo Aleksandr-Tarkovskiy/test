@@ -16,16 +16,69 @@ body
 
 h1
 	font-size: 40px
-h3
+h3, .mobile-p
 	font-size: 24px
+
+
 
 .text-center
 	text-align: center !important
+
+.white-text
+	color: white
+
+.grey-text
+	color: rgba(0, 0, 0, 0.5)
+	p
+		margin: 0
+
+.gutter
+	margin-right: 11px
+
+.margin-p
+	margin-bottom: 50px
 
 .nav
 	height: 57px
 	background-color: #1b5f75
 	z-index: 5
+	&_search
+		position: relative
+		span
+			position: absolute
+			top: 0
+			left: 5px
+	&_search-input
+		width: 100%
+		height: 28px
+		border: none
+		padding-left: 30px
+	&_button
+		position: absolute
+		top: 0
+		right: 0
+		border-radius: 5px
+		border: none
+		background: none
+	img
+		border-radius: 50%
+
+.logo
+	display: block
+	font-size: 23px
+	text-transform: uppercase
+	text-decoration: none
+	color: white
+	&:hover
+		text-decoration: none
+		color: white
+	&-mobile
+		display: none
+		font-size: 23px
+		text-transform: uppercase
+		color: white
+		text-decoration: none
+
 
 .background
 	background: url("../img/background.png") no-repeat center
@@ -34,44 +87,105 @@ h3
 	position: relative
 	z-index: -2
 
+.shadow
+	box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5)
+
+.i-click-1, .i-click-2
+	display: flex
+	flex-flow: row wrap
+	justify-content: space-around
+	align-items: stretch
+	cursor: pointer
+	background-color: #ffffff
 
 .content
 	&_head
 		padding-top: 277px
 	&_main
 		margin-bottom: 20px
+		width: 760px
 		p
 			padding-bottom: 90px
 		h3
-			padding-top: 70px
+			padding-top: 50px
 			margin-bottom: 35px
 		.fa-graduation-cap, .fa-angle-down, .fa-angle-up
-			margin-top: 80px
-		.fa-angle-up
-			opacity: 0
-
-	&_logo
+			margin-top: 60px
+			margin-left: 10px
+	&-logo
 		background-color: #ffffff
-		border: 1px solid grey
-		border-radius: 2px
-		box-shadow: 0px 0px 10px 0px #000000
+		border-radius: 5px
 		position: absolute
 		padding: 10px
 		top: -5%
-		left: 5%
+		left: 10%
+		z-index: 10
+	&-img
+		height: inherit
+		width: inherit
+	&-left
+		order: 2
+	&-right
+		order: 1
+
+.fa-envira
+	margin-top: 20px
 
 .courses
 	position: relative
 	&-star
 		margin-top: 13px
-		margin-right: 10px
+		margin-right: 20px
 		margin-bottom: 16px
 		text-align: right
+	&-p
+		font-size: 18px
+		padding-top: 25px
 
+.slider-location-mobile, .price, .mobile-p
+	display: none
 
+.slider-p
+	display: block
+	font-size: 28px
 
-
-
+.owl-carousel
+	padding-bottom: 25px
+	.content-logo-slider
+		background-color: #ffffff
+		border-radius: 5px
+		display: inline-block
+		position: absolute
+		padding: 10px
+		top: -3%
+		left: 10%
+		z-index: 10
+	.owl-item
+		.content-img-mobile
+			display: none
+	.owl-stage-outer
+		padding-top: 25px
+		padding-bottom: 10px
+		position: relative
+	.owl-nav
+		height: 1px
+		width: 100%
+		position: absolute
+		top: 50%
+		.owl-next, .owl-prev
+			position: absolute
+			top: -25px
+			line-height: 10rem
+			background-color: #ffffff
+			color: #005298
+			border-radius: 5px
+			box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5)
+			width: 50px
+			height: 50px
+		.owl-next
+			right: -80px
+		.owl-prev
+			left: -80px
 
 
 

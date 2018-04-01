@@ -8,7 +8,109 @@
 
 // ≥992px
 +media-breakpoint-down(md)
+	h1
+		font-size: 26px
+		margin-bottom: 50px
+		padding-top: 30px
 
+	h3
+		padding: 0 10px
+
+	.mobile-center
+		text-align: center
+
+	.white
+		color: white
+
+	.mobile-none, .slider-location-desktop, .slider-p
+		display: none! important
+
+	.mobile-p
+		display: block
+		font-size: 12px
+		padding: 10px
+		margin: 0
+
+	.pading
+		margin-top: 35px
+
+	.nav
+		padding: 0
+		&_search-input
+			width: 100%
+
+	.logo
+		display: none
+		&-mobile
+			display: block
+
+
+	.background
+		background-size: inherit
+		background-position: top center
+
+	.content
+		&_head
+			padding-top: 48px
+		&-logo
+			top: -3%
+		&-left
+			order: 1
+		&-right
+			order: 2
+
+	.courses
+		&-p
+			margin-left: 10px
+
+	.grey-text
+		margin-left: 10px
+
+	.i-click-1, .i-click-2
+		display: block
+		width: 300px
+		padding: 30px 0
+
+
+	.slider-p
+		display: block
+		font-size: 18px
+
+	.owl-carousel
+		.content-logo-slider
+			width: 50px
+			padding: 0
+			border: none
+			border-radius: 0
+			top: 5%
+		.owl-item
+			.content-img-mobile
+				display: block
+				width: 100%
+	.courses
+		padding: 0
+
+	.slider-i
+		font-size: 10px
+		margin-left: 10px
+
+	.price
+		display: block
+		color: white
+		background-color: black
+		opacity: 0.5
+		padding: 5px
+		position: absolute
+		bottom: 0
+		right: 0
+
+	.slider-p
+		font-size: 12px
+		padding: 10px
+	.slider-location-mobile
+		display: block
+		font-size: 9px
+		padding-bottom: 10px
 // ≥768px
 +media-breakpoint-down(sm)
 
@@ -23,9 +125,14 @@
 
 // ≤768px
 +media-breakpoint-up(md)
+	.i-click-1, .i-click-2
+		width: 750px
+	.content_head
+		padding-top: 50px
 
 // ≤992px
 +media-breakpoint-up(lg)
+
 
 // ≤1200px
 +media-breakpoint-up(xl)
